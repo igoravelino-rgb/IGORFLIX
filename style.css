@@ -13,7 +13,7 @@ header {
     color: rgb(42, 122, 228);
 }
 
-section{
+.chamada {
     background:  rgb(184,156,213);
     padding-bottom: 80px;
     padding-top: 80px;
@@ -46,19 +46,19 @@ p {
 }
 
 .categoria-videos img {
-    opacity: 0.5;
+    opacity: 1.0;
     height: 200px;
+    width: auto; /* Força a imagem a manter a proporção correta baseada na altura */
+    max-width: 100%; /* Garante que ela não estoure a tela */
 }
+
 
 .categoria-videos img:hover {
     opacity: 1.0;
     border: 1px solid green;
 }
 
+
 .categoria h2 {
     color: rgb(42, 122, 228);
 }
-
-
-
-
